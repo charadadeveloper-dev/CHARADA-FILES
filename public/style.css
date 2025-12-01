@@ -1,0 +1,86 @@
+body {
+    background: #181a20;
+    color: #00ff99;
+    font-family: monospace, "JetBrains Mono", menlo, consolas;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(30,33,40,0.85);
+    border: 2px solid #00ff99;
+    border-radius: 14px;
+    padding: 32px;
+    box-shadow: 0 0 30px #00ff9955;
+    text-align: center;
+}
+
+h1, h2 {
+    text-shadow: 0 0 8px #00ff99, 0 0 2px #fff;
+}
+
+.download-list, #downloads ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 32px auto;
+    font-size: 1.2em;
+}
+
+.download-list li, #downloads ul li {
+    margin: 12px 0;
+}
+
+a, .admin-link {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: bold;
+    transition: text-shadow 0.2s;
+}
+
+a:hover, .admin-link:hover {
+    text-shadow: 0 0 8px #fff, 0 0 30px #00ff99;
+}
+
+.neon-green {
+    color: #00ff99;
+    text-shadow: 0 0 6px #00ff99;
+}
+
+.upload-form input[type="file"] {
+    background: #101113;
+    color: #fff;
+    border: 1px solid #00ff99;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.neon-btn {
+    background: #00ff99;
+    color: #181a20;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 32px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 8px #00ff9977;
+    transition: box-shadow 0.2s;
+}
+.neon-btn:hover {
+    box-shadow: 0 0 32px #00ff99;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 12px;
+    color: #fff;
+    background: #101113;
+    border-top: 1px solid #00ff99;
+    text-align: center;
+    font-size: 0.89em;
+    letter-spacing: 1.5px;
+}
